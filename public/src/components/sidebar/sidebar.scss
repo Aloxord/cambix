@@ -1,0 +1,29 @@
+@import '../../_variables.scss';
+
+.sidebar{
+	composes: column from '../../_config.scss';
+	composes: is-2 from '../../_config.scss';
+	background-color: $main_black;
+	height: 100%;
+	padding: 0;
+}
+
+.logo{
+	width: 100%;
+	height: 10%;
+	background-color: $baseColor;
+	background-image: url('../../imagenes/pruebucha.png');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+}
+
+.menu {
+	width: 100%;
+	height: 75%;
+}
+
+.logout{
+	composes: menu from '../menu/menu.scss';
+	margin-top: 0;
+}

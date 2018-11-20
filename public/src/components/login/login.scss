@@ -1,0 +1,44 @@
+@import '../../_variables.scss';
+
+.login{	
+	composes: columns from '../../_config.scss';
+	height: 100%;
+	width: 100%;
+	margin: 0 !important;
+}
+
+.left, .right{
+	composes: column from '../../_config.scss';
+	position: relative;
+	background-color: white;
+	margin: 0 !important;
+}
+
+.left{
+	background-color: $baseColor;
+}
+
+.left:before{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 75%;
+	border-top: 50vh solid white;
+	border-bottom: 50vh solid white;
+	border-left: 130px solid transparent;
+	border-right: 100px solid white;
+}
+
+.logo{
+	position: relative;
+	left: 15%;
+	top: 30%;
+	width: 55%;
+	height: 40%;
+	background-image: url('../../imagenes/pruebucha.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}

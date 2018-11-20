@@ -1,0 +1,22 @@
+/*fonts*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+%roboto{
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+%robotoLight{
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+%robotoMedium{
+	font-family: 'Roboto';
+	font-weight: 500;
+}
+/*Colors*/
+
+$baseColor: #51118f;
+$disabledColor: #b4aaba;
+$main_black: #0d0d0d;
+

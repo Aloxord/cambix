@@ -1,0 +1,8 @@
+@import '../../_variables.scss';
+
+.dashboard{
+	composes: columns from '../../_config.scss';
+	width: inherit;
+	height: inherit;
+	margin: 0;
+}

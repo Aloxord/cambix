@@ -1,0 +1,20 @@
+@import '../../_variables.scss';
+
+.menu{
+	composes: menu-list from '../../_config.scss';
+	margin-top: 15%;
+
+	a{
+		display: flex;
+		align-items: center;
+
+		i{
+			margin-right: 15%;
+		}
+	
+	}
+}
+
+.active{
+	composes: is-active from '../../_config.scss';
+}

@@ -1,0 +1,50 @@
+@import '../../_variables.scss';
+
+.login{
+	width: 50%;
+	height: 33%;
+	position: relative;
+	top: 33%;
+	left: 25%;
+
+	div{
+		width: 100%;
+		height:45%;
+
+
+		input{
+			border: 1px solid #c9c9c9;
+			margin: 0;
+			padding: 3%;
+			height: 50%;
+			width: 100%;
+		}
+
+	}
+
+	button{
+		width: 100%;
+		height: 20%;
+		margin-top: 10%;
+		margin-bottom: 5%;
+		@extend %robotoLight;
+		font-size: 18px;
+		color: white;
+		border: none;
+		background-color: $baseColor;
+		cursor: pointer;
+
+		&:disabled{
+			background-color: $disabledColor;
+			cursor: not-allowed;
+		}
+	}
+
+	input[type='checkbox']{
+		background-color: white;
+		border: 1px solid #c9c9c9;
+		border-radius: 1px;
+		margin-right: 10px;
+		color: $baseColor;
+	}
+}
